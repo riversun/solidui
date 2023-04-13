@@ -65,16 +65,14 @@ public class SolidMenuItemExample {
     JMenu fileMenu = new JMenu("File");
 
     // Create a CustomMenuItem with text, shortcut text, and a keyboard accelerator
-
-    SolidMenuItem findItem = new SolidMenuItem(
-        new SolidMenuItem.Condition.Builder()
-            .text("Find")
-            .shortcutText("Ctrl+F")
-            .accelerator(KeyStroke.getKeyStroke(KeyEvent.VK_F, ActionEvent.CTRL_MASK))
-            .marginLeft(4)
-            .marginVertical(4)
-            .width(120)
-            .build());
+    SolidMenuItem findItem = new SolidMenuItem(new SolidMenuItem.Condition.Builder().text("Find")
+        .shortcutText("Ctrl+F")
+        .accelerator(KeyStroke.getKeyStroke(KeyEvent.VK_F, ActionEvent.CTRL_MASK))
+        .marginLeft(4)
+        .marginVertical(4)
+        .width(120)
+        .colorOnFocus(Color.LIGHT_GRAY)
+        .build());
 
     // Add an action listener to the custom menu item
     findItem.addActionListener(e -> JOptionPane.showMessageDialog(frame, "Find action triggered"));
