@@ -3,7 +3,7 @@
 UI library of Swing extensions that further refine the OS-native look and feel, usability, and operating experience
 It is licensed under [MIT license](https://opensource.org/licenses/MIT).
 
-[![Maven Central](https://maven-badges.herokuapp.com/maven-central/org.riversun/bigdoc/badge.svg)](https://maven-badges.herokuapp.com/maven-central/org.riversun/solidui)
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/org.riversun/solidui/badge.svg)](https://maven-badges.herokuapp.com/maven-central/org.riversun/solidui)
 
 
 # Install
